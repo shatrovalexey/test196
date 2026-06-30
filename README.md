@@ -7,7 +7,7 @@
 * `php artisan serve`.
 
 ### ТЕСТИРОВАНИЕ
-* Загрузить в Postman папку `tests/Postman`.
+* Загрузить в Postman папку <a href="tests/Postman">tests/Postman</a>
 
 ### АВТОР
 Шатров Алексей Сергеевич <mail@ashatrov.ru>
