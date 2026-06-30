@@ -2,6 +2,7 @@
 * <a href="Задание.png">Задание.png</a>
 
 ### НАСТРОЙКА И ЗАПУСК
+* `composer install`
 * подключение к СУБД;
 * `php artisan migrate`;
 * `php artisan serve`.
