@@ -28,8 +28,7 @@ class Link extends Model
 
     protected static function booted(): void
     {
-        if ($user_id = auth()->id())
-            static::addGlobalScope('user', fn (Builder $builder) => $builder->where('user_id', $user_id));
+        static::addGlobalScope('user', fn (Builder $builder) => $builder->where('user_id', auth()->id()));
     }
 
     public function user(): BelongsTo
